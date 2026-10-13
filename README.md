@@ -1,7 +1,7 @@
 # AI-Powered Shopify Catalog & SEO Optimization Engine
 
 ## 📌 Overview
-An automated Python backend application designed to overhaul massive e-commerce catalogs. It leverages the OpenAI API (`gpt-4o-mini`) to read, clean, and standardize product listings at scale. The system intelligently extracts specifications, determines fitment, writes high-converting SEO meta-descriptions, and safely injects structured Metafields back into Shopify.
+An automated Python pipeline designed to overhaul massive e-commerce catalogs. It leverages the OpenAI API (`gpt-4o-mini`) to read, clean, and standardize product listings at scale. The system intelligently extracts specifications, determines fitment, writes high-converting SEO meta-descriptions, and safely injects structured Metafields back into Shopify.
 
 ## 🚀 Core Features
 * **GraphQL API Architecture:** High-speed data retrieval and product mutations using Shopify's GraphQL API with robust paginated query loops.
@@ -11,7 +11,7 @@ An automated Python backend application designed to overhaul massive e-commerce 
 * **Fault-Tolerant Batch Processing:** Engineered with a "Dry Run" safety mode, automatic cursor tracking (`progress.json`), and comprehensive batch execution logging (`process_log.txt`). It can pause, resume, and track errors without duplicating updates.
 
 ## 🛠️ Technology Stack
-* **Backend:** Python
+* **Programming:** Python
 * **APIs:** Shopify GraphQL API, OpenAI API (GPT-4o-mini)
 * **Data Processing:** BeautifulSoup 4, Regex, JSON
 
