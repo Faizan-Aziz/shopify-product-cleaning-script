@@ -1,0 +1,35 @@
+# ============================================================
+# Shopify Product Catalog Enrichment Pipeline
+# ============================================================
+
+# Secrets — NEVER commit
+.env
+
+# Runtime state & logs
+*.log
+process_log.txt
+progress.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
